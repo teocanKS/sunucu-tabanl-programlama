@@ -1,9 +1,10 @@
 {
-  "name": "sunucutabanliprogramlama",
+  "name": "sunucu-tabanl-programlama",
   "version": "1.0.0",
-  "description": "Sunucu Tabanlı Programlama dersi için",
+  "description": "sunucu tabanlı programlama için",
   "keywords": [
     "sunucu",
+    "tabanli",
     "ders"
   ],
   "homepage": "https://github.com/teocanKS/sunucu-tabanl-programlama#readme",
@@ -14,11 +15,12 @@
     "type": "git",
     "url": "git+https://github.com/teocanKS/sunucu-tabanl-programlama.git"
   },
-  "license": "MIT",
-  "author": "teocankS",
+  "license": "ISC",
+  "author": "teocanKS",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   }
 }
